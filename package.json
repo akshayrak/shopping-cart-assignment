@@ -4,14 +4,17 @@
   "description": "This is a shopping cart coding exercise",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack serve --mode development",
+    "dev": "webpack serve --mode development --open --config webpack.config.js",
+    "build": "webpack --config webpack.config.js --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "canned -p 5000 ./server"
+    "start": "canned -p 5000 ./server",
+    "server": "node ./server.js"
   },
   "author": "Akshay R",
   "license": "MIT",
   "dependencies": {
     "canned": "^0.3.12",
+    "json-server": "^0.17.0",
     "mini-css-extract-plugin": "^2.5.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
