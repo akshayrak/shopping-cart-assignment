@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    background: #eaeaea;
+    padding: 10px;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .footer{
+        width: 100vw;
+        font-size: smaller;
+        padding: 10px 0px;
+        margin: 0px;
+    }
+}
