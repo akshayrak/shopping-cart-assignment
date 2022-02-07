@@ -15,6 +15,7 @@ const Carousel = ({ imageData }) => {
               src={`https://raw.githubusercontent.com/akshayrak/shopping-cart-assignment/master${data.bannerImageUrl}`}
               alt={data.bannerImageAlt}
               className='carousel-img'
+              key={data.order}
             />
           </div>
 

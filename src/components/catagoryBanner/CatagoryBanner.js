@@ -10,7 +10,11 @@ const CatagoryBanner = ({ catagoryData }) => {
         <>
             <div className='category-container'>
                 {catagoryData.map(data => (
-                    data.imageUrl && <div className="banner-component">
+                    data.imageUrl && 
+                    <div
+                     className="banner-component"
+                     key={data.id}
+                     >
                         <div className="image-container">
                             <img
                                 loading="lazy"
