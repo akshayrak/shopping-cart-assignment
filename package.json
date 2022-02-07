@@ -7,7 +7,7 @@
     "dev": "webpack serve --mode development --open --config webpack.config.js",
     "build": "webpack --config webpack.config.js --mode production",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "canned -p 5000 ./server"
+    "start": "canned -p 9000 ./server"
   },
   "author": "Akshay R",
   "license": "MIT",
