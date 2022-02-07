@@ -10,7 +10,7 @@ const MyCart = () => {
     const dispatch = useDispatch();
     const navigate = useNavigate()
   return <div className='my-cart-container'>
-      <header class="cart-header">
+      <header className="cart-header">
                 <h2>My cart {item > 0 ? `(${item} Item)` : null}</h2>
             </header>
 

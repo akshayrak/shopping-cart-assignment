@@ -38,7 +38,7 @@ const Product = () => {
     <>
       <div className='product-page-container'>
         <main className='product-page-main'>
-          <aside class="categories-section">
+          <aside className="categories-section">
             <ProductList categoriesData={categoriesData} />
           </aside>
           <section className='cards-section'>

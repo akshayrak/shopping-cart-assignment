@@ -21,7 +21,7 @@ const Home = ({setSelectedCategory}) => {
   return( 
   <>
     {carouselData.length>0&&<Carousel imageData={carouselData} /> }
-    {catagoryData.length>0&&<CatagoryBanner catagoryData={catagoryData} setSelectedCategory={setSelectedCategory} />}
+    {catagoryData.length>0&&<CatagoryBanner catagoryData={catagoryData} />}
   </>
   );
 };
