@@ -21,19 +21,20 @@
 .list-n{
     display: flex;
     align-items: flex-end;
+    padding: 10px 0;
 }
 
 .cart-login-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-end;
 }
 
 .list-h{
     display: flex;
     justify-content: space-between;
-    padding: 0px;
+    padding: 10px 0;
 }
 
 .logo-img{
